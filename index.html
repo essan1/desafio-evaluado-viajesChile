@@ -43,9 +43,12 @@
   </head>
 
   <body>
+
+
+
     <!-- N A V B A R -->
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top  navbar-dark">
+
         <div class="container">
           <a class="navbar-brand fs-3" href="#">
             <img src="./assets/img/viajes.svg" alt="Logo Viajes Chile" /> Viajes
@@ -67,18 +70,20 @@
               <a class="nav-link active pe-5" href="#"
                 ><i class="fa-solid fa-house"></i> Inicio</a
               >
-              <a class="nav-link active pe-5" href="#">Quienes Somos</a>
+              <a class="nav-link active pe-5 " href="#">Quienes Somos</a>
               <a class="nav-link active pe-5" href="#">Destacado</a>
               <a class="nav-link active" href="#">Contacto</a>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- N A V B A R -->
+    </nav>
+    <!-- N A V B A R -->
+    <section id="texto">
 
-      <!-- C A R R U S E L -->
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+    <!-- C A R R U S E L -->
+    <header>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1800">
+        <div class="carousel-inner carousel-fade">
           <div class="carousel-item active">
             <img
               src="./assets/img/carousel1.jpg"
@@ -123,136 +128,134 @@
         </button>
       </div>
     </header>
-    <!-- C A R R U S E L -->
-    <section id="texto">
+    
       <!-- Q U I E N E S   S O M O S  -->
-      <h1 class="text-center fw-bold text-uppercase">¿Quiénes somos?</h1>
+      <h1 class="text-center fw-bold text-uppercase mt-5">¿Quiénes somos?</h1>
 
-      <section class="columnas-texto text-center align-items-center">
-        <div class="iconos"><i class="fa-solid fa-plane"></i></div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-          alias cum sit commodi voluptatibus deleniti ad eaque. Perspiciatis,
-          quaerat quod? Quibusdam atque at molestiae consequuntur culpa dolores
-          minima dolorem. Ipsam magni nisi id laudantium veniam excepturi! Rem
-          voluptate doloremque id, qui incidunt, deserunt recusandae quibusdam,
-          eaque dolorem ipsam minima hic.
+      <section class="container mt-5">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <div class="icono-quienes-somos"><i class="fa-solid fa-plane-departure"></i></div>
+          <p class="fs-5 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, et fuga quibusdam accusamus aliquam delectus repellat harum eaque at facilis! Praesentium deserunt ad nobis mollitia eos, maiores atque quod pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia est doloremque consequatur illum? Accusantium obcaecati provident doloribus aliquam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis veniam nulla dolorum sequi tempore odit autem suscipit obcaecati quibusdam. </p>
         </div>
-        <div class="iconos"><i class="fa-solid fa-route"></i></div>
-        <div>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-          veritatis similique quod! Eos labore fuga distinctio magni assumenda
-          aliquam ad nulla eius libero itaque exercitationem ducimus atque,
-          perspiciatis vitae, illo ratione explicabo, quia velit voluptate
-          molestiae ullam quas. Repudiandae, magnam facilis. Eum labore corporis
-          molestias tempora, in odit? Consequuntur, tempore.
+        <div class="col-md-4">
+          <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero est incidunt! Doloremque fugiat excepturi atque sit veritatis asperiores soluta, deserunt officiis dicta ex hic non, ab dignissimos tempora inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo illo blanditiis dignissimos quasi quos veritatis! Ea dolore aspernatur nemo iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vero non voluptas quas voluptates id labore cupiditate autem atque inventore. </p>
+          <div class="icono-quienes-somos mt-4"><i class="fa-solid fa-mountain"></i></div>
         </div>
-        <div class="iconos"><i class="fa-solid fa-mountain"></i></div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsam
-          facere libero tempora ea, similique veniam sit fuga beatae ullam,
-          optio nemo. Quaerat facere qui vero doloremque sequi id eum neque quia
-          excepturi voluptatibus aliquid, enim cumque nostrum quae possimus quo
-          atque. Neque, aut ipsum commodi nam repudiandae doloremque esse?
+        <div class="col-md-4">
+          <div class="icono-quienes-somos"><i class="fa-solid fa-route"></i></div>
+          <p class="fs-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus nobis unde, explicabo, veniam sunt error ipsa quibusdam ut similique quos! Illo dolores eos voluptas sed ullam, beatae quis temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur cumque adipisci reprehenderit debitis dolor? A suscipit iusto accusantium culpa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eaque debitis aliquid, nesciunt perspiciatis error voluptas ipsam commodi blanditiis </p>
         </div>
+      </div>
       </section>
 
       <!-- D E S T A C A D O S  -->
 
-      <h1 class="text-center fw-bold text-uppercase">Destacados</h1>
+      <h1 class="text-center fw-bold text-uppercase mt-5">Destacados</h1>
 
-      <div class="card">
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="container mt-5">
+      <section class="row">
+      <div class="card col-md-3 p-0">
+        <img src="./assets/img/card1.jpg" class="card-img-top" alt="Patagonia Chilena" />
         <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="card-text fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
           </p>
         </div>
       </div>
 
-      <div class="card">
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="card col-md-3 p-0">
+        <img src="./assets/img/card2.jpg" class="card-img-top" alt="Lagos Chilenos" />
         <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="card-text fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
           </p>
         </div>
       </div>
 
-      <div class="card">
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="card col-md-3 p-0">
+        <img src="./assets/img/card3.jpg" class="card-img-top" alt="Desiertos Chilenos" />
         <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="card-text fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
           </p>
         </div>
       </div>
 
-      <div class="card">
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="card col-md-3 p-0">
+        <img src="./assets/img/card4.jpg" class="card-img-top" alt="Bosques Chilenos" />
         <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p class="card-text fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
           </p>
         </div>
       </div>
-
+      </section>
+      </div>
       <!-- F O R M  -->
 
+      <h1 class="text-center fw-bold text-uppercase mt-5">Contacto</h1>
+
+      <section class="container mt-5">
       <div class="mb-3 form">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <label for="exampleFormControlInput1" class="form-label fs-5">Nombre</label>
         <input
           type="email"
           class="form-control"
           id="exampleFormControlInput1"
-          placeholder="mail@mail.com"
+          placeholder="Juanito Perez"
         />
       </div>
 
       <div class="mb-3 form">
-        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <label for="exampleFormControlInput1" class="form-label fs-5">Asunto</label>
         <input
           type="email"
           class="form-control"
           id="exampleFormControlInput1"
-          placeholder="mail@mail.com"
+          placeholder="Juanito@mail.com"
         />
       </div>
 
       <div class="mb-3 form">
-        <label for="exampleFormControlTextarea1" class="form-label"
+        <label for="exampleFormControlTextarea1" class="form-label fs-5"
           >Mensaje</label
         >
         <textarea
           class="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
-          placeholder="Mensaje..."
+          placeholder="Comentarios"
         ></textarea>
 
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-3">
+        <div class="col-auto mt-4">
+          <button id="btn" type="submit" class="btn mb-3 px-4 fs-5">
             Enviar
           </button>
         </div>
       </div>
-    </section>
+      </section>
+
+    <!-- QUIENES SOMOS ,, DESTACADOS CARD ,,  FORM  -->
+
+    <!-- F O O T E R  -->
+    <footer class="footer pt-4 pb-3">
+        <div>
+          <p class="fs-2 fw-light">VIAJES CHILE</p>
+        </div>
+
+        <div class="links-footer fs-1">
+          <a href="https://www.github.com"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.x.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+
+    </footer>
 
 
-          <!-- F O O T E R  -->
-      <footer>
-      <P>VIAJES CHILE</P>
-      <aside class="ms-auto">
-        <i class="fa-brands fa-github-alt"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-facebook"></i>
-      </aside>
-        </footer>
+
+
     <!-- script -->
     <script src="./assets/js/script.js"></script>
 
