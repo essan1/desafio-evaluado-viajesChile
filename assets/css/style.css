@@ -1,19 +1,8 @@
-/* Css Reset  */
+
 * {
-    min-width: 0;
-    font: inherit;
-    font-family: 'DM Sans', sans-serif;
+   font-family: 'DM Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-}
-
-p {
-    text-wrap: pretty;
-}
-
-/* css reset */
 
 .navbar-brand img {
     height: 2em;
@@ -26,4 +15,45 @@ p {
 
 }
 
+.navbar-inner {
+    background:transparent;
+}
 
+.carousel-inner img {
+    height: auto;
+    width: auto;
+}
+   
+#texto {
+    background-color: black;
+}
+
+#texto h1 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.columnas-texto {
+  width: 1366px;
+  height: 768px;
+  display: grid;
+  grid-template-rows: repeat(2, 30%);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+text-align: center;
+color: white;
+}
+
+.iconos {
+    background-color: aquamarine;
+}
+
+.form {
+    color: white;
+}
+
+footer {
+    background-color: aqua;
+    color: white;
+    display: inline-flex;
+}

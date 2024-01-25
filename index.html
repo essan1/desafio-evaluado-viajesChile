@@ -42,13 +42,15 @@
     />
   </head>
 
-
   <body>
     <!-- N A V B A R -->
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
-          <a class="navbar-brand fs-3" href="#"> <img src="./assets/img/viajes.svg" alt="Logo Viajes Chile"> Viajes Chile</a>
+          <a class="navbar-brand fs-3" href="#">
+            <img src="./assets/img/viajes.svg" alt="Logo Viajes Chile" /> Viajes
+            Chile</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -62,9 +64,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto fs-3">
-              <a class="nav-link active" href="#">Inicio</a>
-              <a class="nav-link active" href="#">Quienes Somos</a>
-              <a class="nav-link active" href="#">Destacado</a>
+              <a class="nav-link active pe-5" href="#"
+                ><i class="fa-solid fa-house"></i> Inicio</a
+              >
+              <a class="nav-link active pe-5" href="#">Quienes Somos</a>
+              <a class="nav-link active pe-5" href="#">Destacado</a>
               <a class="nav-link active" href="#">Contacto</a>
             </div>
           </div>
@@ -73,56 +77,182 @@
       <!-- N A V B A R -->
 
       <!-- C A R R U S E L -->
-      <section>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./assets/img/carousel1.jpg"
-                class="d-block w-100"
-                alt="Llamas en el Desierto de San Pedro de Atacama"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/img/carousel2.jpg"
-                class="d-block w-100"
-                alt="Moais en la Isla de Pascua"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/img/carousel3.jpg"
-                class="d-block w-100"
-                alt="Pingüino en la Patagonia"
-              />
-            </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="Llamas en el Desierto de San Pedro de Atacama"
+            />
           </div>
-
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="Moais en la Isla de Pascua"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="Pingüino en la Patagonia"
+            />
+          </div>
         </div>
-      </section>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
     <!-- C A R R U S E L -->
+    <section id="texto">
+      <!-- Q U I E N E S   S O M O S  -->
+      <h1 class="text-center fw-bold text-uppercase">¿Quiénes somos?</h1>
 
+      <section class="columnas-texto text-center align-items-center">
+        <div class="iconos"><i class="fa-solid fa-plane"></i></div>
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+          alias cum sit commodi voluptatibus deleniti ad eaque. Perspiciatis,
+          quaerat quod? Quibusdam atque at molestiae consequuntur culpa dolores
+          minima dolorem. Ipsam magni nisi id laudantium veniam excepturi! Rem
+          voluptate doloremque id, qui incidunt, deserunt recusandae quibusdam,
+          eaque dolorem ipsam minima hic.
+        </div>
+        <div class="iconos"><i class="fa-solid fa-route"></i></div>
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          veritatis similique quod! Eos labore fuga distinctio magni assumenda
+          aliquam ad nulla eius libero itaque exercitationem ducimus atque,
+          perspiciatis vitae, illo ratione explicabo, quia velit voluptate
+          molestiae ullam quas. Repudiandae, magnam facilis. Eum labore corporis
+          molestias tempora, in odit? Consequuntur, tempore.
+        </div>
+        <div class="iconos"><i class="fa-solid fa-mountain"></i></div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsam
+          facere libero tempora ea, similique veniam sit fuga beatae ullam,
+          optio nemo. Quaerat facere qui vero doloremque sequi id eum neque quia
+          excepturi voluptatibus aliquid, enim cumque nostrum quae possimus quo
+          atque. Neque, aut ipsum commodi nam repudiandae doloremque esse?
+        </div>
+      </section>
+
+      <!-- D E S T A C A D O S  -->
+
+      <h1 class="text-center fw-bold text-uppercase">Destacados</h1>
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+
+      <!-- F O R M  -->
+
+      <div class="mb-3 form">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="mail@mail.com"
+        />
+      </div>
+
+      <div class="mb-3 form">
+        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="mail@mail.com"
+        />
+      </div>
+
+      <div class="mb-3 form">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Mensaje</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="Mensaje..."
+        ></textarea>
+
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+          <!-- F O O T E R  -->
+      <footer>
+      <P>VIAJES CHILE</P>
+      <aside class="ms-auto">
+        <i class="fa-brands fa-github-alt"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </aside>
+        </footer>
     <!-- script -->
     <script src="./assets/js/script.js"></script>
 
