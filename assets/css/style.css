@@ -1,0 +1,29 @@
+/* Css Reset  */
+* {
+    min-width: 0;
+    font: inherit;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+/* css reset */
+
+.navbar-brand img {
+    height: 2em;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+
