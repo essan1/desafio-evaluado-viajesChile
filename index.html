@@ -9,7 +9,6 @@
     />
     <title>:: Viajes Chile ::</title>
 
-    <!-- favicon -->
     <link
       rel="shortcut icon"
       href="./assets/img/viajes.svg"
@@ -34,23 +33,17 @@
     />
 
     <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   </head>
 
   <body>
 
-
-
     <!-- N A V B A R -->
-    <nav class="navbar navbar-expand-lg fixed-top  navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark px-2">
 
         <div class="container">
-          <a class="navbar-brand fs-3" href="#">
+          <a class="navbar-brand fs-3" href="#navbar">
             <img src="./assets/img/viajes.svg" alt="Logo Viajes Chile" /> Viajes
             Chile</a
           >
@@ -67,12 +60,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto fs-3">
-              <a class="nav-link active pe-5" href="#"
+              <a class="nav-link active pe-5" href="#inicio"
                 ><i class="fa-solid fa-house"></i> Inicio</a
               >
-              <a class="nav-link active pe-5 " href="#">Quienes Somos</a>
-              <a class="nav-link active pe-5" href="#">Destacado</a>
-              <a class="nav-link active" href="#">Contacto</a>
+              <a class="nav-link active pe-5 " href="#quienes-somos">Quienes Somos</a>
+              <a class="nav-link active pe-5" href="#destacados">Destacados</a>
+              <a class="nav-link active" href="#form">Contacto</a>
             </div>
           </div>
         </div>
@@ -81,7 +74,7 @@
     <section id="texto">
 
     <!-- C A R R U S E L -->
-    <header class="row">
+    <header class="row" id="inicio">
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1800">
         <div class="carousel-inner carousel-fade">
           <div class="carousel-item active">
@@ -130,6 +123,7 @@
     </header>
     
       <!-- Q U I E N E S   S O M O S  -->
+      <article class="d-none d-md-block" id="quienes-somos">
       <h1 class="text-center fw-bold text-uppercase mt-5">¿Quiénes somos?</h1>
 
       <section class="container mt-5">
@@ -139,29 +133,30 @@
           <p class="fs-5 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, et fuga quibusdam accusamus aliquam delectus repellat harum eaque at facilis! Praesentium deserunt ad nobis mollitia eos, maiores atque quod pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia est doloremque consequatur illum? Accusantium obcaecati provident doloribus aliquam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis veniam nulla dolorum sequi tempore odit autem suscipit obcaecati quibusdam. </p>
         </div>
         <div class="col-md-4 mt-5">
-          <div class="icono-quienes-somos"><i class="fa-solid fa-mountain"></i></div>
-          <p class="fs-5 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero est incidunt! Doloremque fugiat excepturi atque sit veritatis asperiores soluta, deserunt officiis dicta ex hic non, ab dignissimos tempora inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo illo blanditiis dignissimos quasi quos veritatis! Ea dolore aspernatur nemo iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vero non voluptas quas voluptates id labore cupiditate autem atque inventore. </p>
+          <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero est incidunt! Doloremque fugiat excepturi atque sit veritatis asperiores soluta, deserunt officiis dicta ex hic non, ab dignissimos tempora inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo illo blanditiis dignissimos quasi quos veritatis! Ea dolore aspernatur nemo iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vero non voluptas quas voluptates id labore cupiditate autem atque inventore. </p>
+          <div class="icono-quienes-somos mt-4"><i class="fa-solid fa-mountain"></i></div>
 
         </div>
         <div class="col-md-4 mt-5">
-          <div class="icono-quienes-somos"><i class="fa-solid fa-route"></i></div>
-          <p class="fs-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus nobis unde, explicabo, veniam sunt error ipsa quibusdam ut similique quos! Illo dolores eos voluptas sed ullam, beatae quis temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur cumque adipisci reprehenderit debitis dolor? A suscipit iusto accusantium culpa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eaque debitis aliquid, nesciunt perspiciatis error voluptas ipsam commodi blanditiis </p>
+          <div class="icono-quienes-somos mt-4"><i class="fa-solid fa-route"></i></div>
+          <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus nobis unde, explicabo, veniam sunt error ipsa quibusdam ut similique quos! Illo dolores eos voluptas sed ullam, beatae quis temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur cumque adipisci reprehenderit debitis dolor? A suscipit iusto accusantium culpa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eaque debitis aliquid, nesciunt perspiciatis error voluptas ipsam commodi blanditiis </p>
         </div>
       </div>
       </section>
+      </article>
 
       <!-- D E S T A C A D O S  -->
-
+      <article id="destacados">
       <h1 class="text-center fw-bold text-uppercase mt-5">Destacados</h1>
 
       <div class="container mt-5">
       <section class="row">
 
-
       <div class="col-md-3 my-3">
           <div  class="card p-0" id="cont-foto">
             <img src="./assets/img/card1.jpg" class="card-img-top" alt="Patagonia Chilena" />
             <div class="card-body">
+              <h2>Lorem ipsum dolor sit amet.</h2>
               <p class="card-text fs-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
               </p>
@@ -173,6 +168,7 @@
           <div class="card p-0" id="cont-foto">
             <img src="./assets/img/card2.jpg" class="card-img-top" alt="Patagonia Chilena" />
             <div class="card-body">
+              <h2>Lorem ipsum dolor sit amet.</h2>
               <p class="card-text fs-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
               </p>
@@ -184,6 +180,7 @@
           <div class="card p-0" id="cont-foto">
             <img src="./assets/img/card3.jpg" class="card-img-top" alt="Patagonia Chilena" />
             <div class="card-body">
+              <h2>Lorem ipsum dolor sit amet.</h2>
               <p class="card-text fs-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
               </p>
@@ -195,6 +192,7 @@
           <div class="card p-0" id="cont-foto">
             <img src="./assets/img/card4.jpg" class="card-img-top" alt="Patagonia Chilena" />
             <div class="card-body">
+              <h2>Lorem ipsum dolor sit amet.</h2>
               <p class="card-text fs-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id nesciunt quibusdam minima qui commodi quis maiores odio officia quod, totam, iure saepe voluptatibus! Nostrum suscipit placeat vitae deserunt ducimus.
               </p>
@@ -204,7 +202,11 @@
 
       </section>
       </div>
+      </article>
+
+
       <!-- F O R M  -->
+      <article id="form">
 
       <h1 class="text-center fw-bold text-uppercase mt-5">Contacto</h1>
 
@@ -220,7 +222,7 @@
       </div>
 
       <div class="mb-3 form">
-        <label for="exampleFormControlInput1" class="form-label fs-5">Asunto</label>
+        <label for="exampleFormControlInput1" class="form-label fs-5">Mail</label>
         <input
           type="email"
           class="form-control"
@@ -240,36 +242,36 @@
           placeholder="Comentarios"
         ></textarea>
 
-        <div class="col-auto mt-4">
-          <button id="btn" type="submit" class="btn mb-3 px-4 fs-5">
+        <div class="mt-4">
+          <button id="btn" type="submit" class="btn mb-3 px-4 fs-5" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Haz click para enviar tus comentarios!">
             Enviar
           </button>
         </div>
+        
+
       </div>
       </section>
 
-    <!-- QUIENES SOMOS ,, DESTACADOS CARD ,,  FORM  -->
+      </article>
 
     <!-- F O O T E R  -->
     <footer class="footer pt-4 pb-3">
+
         <div>
-          <p class="fs-2 fw-light">VIAJES CHILE</p>
+          <p class="fs-2 fw-light">VIAJES CHILE®</p>
         </div>
 
         <div class="links-footer fs-1">
-          <a href="https://www.github.com"><i class="fa-brands fa-square-github"></i></a>
-          <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://www.x.com"><i class="fa-brands fa-square-x-twitter"></i></a>
-          <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.github.com" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Checkea nuestro GitHub!"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Conectemos en Linkedin!"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.x.com" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Siguenos en X!"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.facebook.com" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Revisa nuestro Face. (solo si tienes D:)"><i class="fa-brands fa-square-facebook"></i></a>
         </div>
 
     </footer>
 
 
 
-
-    <!-- script -->
-    <script src="./assets/js/script.js"></script>
 
     <!-- jquery  -->
     <script
@@ -279,10 +281,9 @@
     ></script>
 
     <!-- bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <!-- script DEBE IR AL ULTIMO. ESTANDO ARRIBA NO APARECE TOOLTIP -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

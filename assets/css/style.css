@@ -1,12 +1,15 @@
 
 * {
    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
-    --azulado: #3ea2e4;
+    --verdebonito: #14834b;
 }
 
+
+/* navbar */
 .navbar-brand img {
     height: 2em;
     vertical-align: middle;
@@ -14,21 +17,17 @@
 
 .navbar-brand {
     font-weight: bold;
-    vertical-align: middle;
-
 }
 
 
-.navbar {
-    background-color: rgba(236, 236, 236, 0.215);
-}
-
+/* carousel */
 .carousel-inner img {
   max-width: 100%;
   max-height: 100%;
 }
 
-   
+
+/* quienes somos */
 #texto {
     background-color: black;
     color: white;
@@ -40,13 +39,14 @@
 }
 
 .icono-quienes-somos {
-    background-color: var(--azulado);
+    background-color: var(--verdebonito);
     font-size: 25px;
     text-align: center;
 }
 
+/* destacados */
 #cont-foto {
-    background-color: var(--azulado);
+    background-color: var(--verdebonito);
     color: white;
 }
 
@@ -56,12 +56,21 @@
 }
 
 
+/* form */
 .form {
     color: white;
 }
 
+#btn {
+    background-color: var(--verdebonito);
+    color: white;
+}
+
+
+
+/* foter */
 footer {
-    background-color: var(--azulado);
+    background-color: var(--verdebonito);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -69,10 +78,5 @@ footer {
 
 .links-footer i{
     text-decoration: none;
-    color: white;
-}
-
-#btn {
-    background-color: var(--azulado);
     color: white;
 }
