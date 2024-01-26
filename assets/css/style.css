@@ -1,91 +1,81 @@
-
 * {
-   font-family: 'DM Sans', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --verdebonito: #14834b;
+  --verdebonito: #14834b;
 }
-
 
 /* navbar */
 
 .navbar-brand img {
-    height: 2em;
-    vertical-align: middle;
+  height: 2em;
+  vertical-align: middle;
 }
 
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.139);
+  background-color: rgba(0, 0, 0, 0.139);
 }
 
+/* id y ajuste general de colores y letter spacing h1s  */
+#color-back-font {
+  background-color: black;
+  color: white;
+}
 
-
-
+#color-back-font h1 {
+  color: white;
+  letter-spacing: 1px;
+}
 
 /* carousel */
 .carousel-item img {
   max-height: 100vh;
 }
 
-
-
-
 /* quienes somos */
-#color-back-font {
-    background-color: black;
-    color: white;
-}
-
-#color-back-font h1 {
-    color: white;
-    letter-spacing: 1px;
-}
 
 .icono-quienes-somos {
-    background-color: var(--verdebonito);
-    font-size: 25px;
-    text-align: center;
+  background-color: var(--verdebonito);
+  font-size: 25px;
+  text-align: center;
 }
 
 /* destacados */
 #cont-foto {
-    background-color: var(--verdebonito);
-    color: white;
+  background-color: var(--verdebonito);
+  color: white;
 }
 
 .card-img-top {
-    height: 200px; 
-    object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
-
 
 /* form */
 .form {
-    color: white;
+  color: white;
 }
 
 #btn {
-    background-color: var(--verdebonito);
-    color: white;
+  background-color: var(--verdebonito);
+  color: white;
 }
-
-
 
 /* foter */
 footer {
-    background-color: var(--verdebonito);
-    color: white;
-    display: flex;
-    justify-content: space-around;
+  background-color: var(--verdebonito);
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
-.links-footer i{
-    text-decoration: none;
-    color: white;
+.links-footer i {
+  text-decoration: none;
+  color: white;
 }
